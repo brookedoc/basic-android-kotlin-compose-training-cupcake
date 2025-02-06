@@ -19,6 +19,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.example.cupcake.ui.brooke.BrookeCupcakeApp
 import com.example.cupcake.ui.theme.CupcakeTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +28,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CupcakeTheme {
-                CupcakeApp()
+                BrookeCupcakeApp()
             }
         }
     }
